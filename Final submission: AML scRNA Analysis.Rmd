@@ -172,7 +172,7 @@ write.csv(aml_mono_cxcr4_markers, "aml_mono_cxcr4_markers.csv", row.names = TRUE
     x = 'avg_log2FC',
     y = 'p_val_adj',
     selectLab = c('JUN','CITED2','HLX',
-      'MPP7','AREG','ARL4A','HMGB2','APOOL','LPAR6', "IFITM3"),
+      'SAP30','AREG','ARL4A','HMGB2','APOOL','LPAR6', "IFITM3"),
     xlab = bquote(~Log[2]~ 'fold change'),
     pCutoff = 0.005,
     xlim = c(-2.5, 2.5),
